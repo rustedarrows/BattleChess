@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Battle Chess</title>
+        <script>
+            ImpactPrefix = 'impact/';
+            ClientHost = 'http://192.168.1.111:<%= config.port %>';
+        </script>
+        <script type="text/javascript" src="http://192.168.1.111:<%= config.port %>/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="impact/lib/impact/impact.js"></script>
+        <script type="text/javascript" src="impact/lib/game/main.js"></script>
+    </head>
+    <body>
+    <div style="text-align: center;">
+        <canvas id="canvas"></canvas>
+        </div>
+    </body>
+</html>
